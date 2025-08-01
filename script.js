@@ -16,3 +16,4 @@ function mostraAlternativas() {
     caixaAlternativas.appendChild(botaoAlternativas);
   }
 }
+botao.addEventListener("click", () => respostaSelecionada(opcao));

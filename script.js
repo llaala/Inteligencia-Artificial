@@ -17,3 +17,9 @@ function mostraAlternativas() {
   }
 }
 botao.addEventListener("click", () => respostaSelecionada(opcao));
+function respostaSelecionada(opcaoSelecionada) {
+  const afirmacoes = opcaoSelecionada.afirmacoes;
+  historiaFinal += afirmacoes + " ";
+  atual++;
+  mostraPergunta();
+}
